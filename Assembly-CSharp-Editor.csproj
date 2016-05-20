@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A05202F7-8170-6CA3-9C19-CBDD44DC8F86}</ProjectGuid>
+    <ProjectGuid>{BCC7256A-9400-6F74-9267-E14A7426BB21}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\AvatarTest.cs" />
      <Compile Include="Assets\Editor\IdeoTestUnit.cs" />
      <Compile Include="Assets\Editor\ShopEnterTest.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionComponentEditor.cs" />
@@ -127,16 +126,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>D:/IDEOLast/IDEO/Assets/Parse.Unity.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/IDEO_LIVING_MALL/Assets/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>D:/IDEOLast/IDEO/Assets/UnityTestTools/IntegrationTestsFramework/Libs/Mono.Cecil.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/IDEO_LIVING_MALL/Assets/UnityTestTools/IntegrationTestsFramework/Libs/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil.Mdb">
- <HintPath>D:/IDEOLast/IDEO/Assets/UnityTestTools/IntegrationTestsFramework/Libs/Mono.Cecil.Mdb.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/IDEO_LIVING_MALL/Assets/UnityTestTools/IntegrationTestsFramework/Libs/Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
  <Reference Include="NSubstitute">
- <HintPath>D:/IDEOLast/IDEO/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
+ <HintPath>C:/Users/user/Documents/GitHub/IDEO_LIVING_MALL/Assets/UnityTestTools/UnitTesting/Editor/NSubstitute/NSubstitute.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -147,9 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{17BB621F-0DDA-153C-2886-E2060B56FC77}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{F2FBC022-4AB1-ED2E-3D3A-60D460A3B2CB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{52D6A3FA-740B-237A-73BD-9C9D3529998C}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{76092D86-CBE1-B4AA-5FEC-ACA4D46EA642}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -46,11 +46,7 @@ public class Shop : MonoBehaviour {
 
 	public void gotoshoppingmallOnTest()
 	{
-	/*	Scene scene = EditorSceneManager.NewScene (NewSceneSetup.EmptyScene, NewSceneMode.Single);
-		EditorSceneManager.SaveScene (scene, "Assets\\inshop.unity");
-		EditorSceneManager.CloseScene (scene, true);
-		EditorSceneManager.OpenScene ("Assets\\Shoppingmall.unity");*/
-		//Application.LoadLevel(2);
+		EditorSceneManager.OpenScene ("Assets\\Shoppingmall.unity");
 	}
 
 	public void gotoshop()
@@ -60,12 +56,8 @@ public class Shop : MonoBehaviour {
 
 	public void gotoshopOnTest()
 	{
-		/*Scene scene = EditorSceneManager.NewScene (NewSceneSetup.EmptyScene, NewSceneMode.Single);
-		EditorSceneManager.SaveScene (scene, "Assets\\Shoppingmall.unity");
-		EditorSceneManager.CloseScene (scene, true);
+
 		EditorSceneManager.OpenScene("Assets\\inshop.unity");
-		//EditorSceneManager.CreateScene("Assets\\inshop.unity");
-		//Application.LoadLevel(3);*/
 	}
 
 	public int getLevel()
@@ -76,7 +68,6 @@ public class Shop : MonoBehaviour {
 	public string getLevelOnTest()
 	{
 		return EditorSceneManager.GetActiveScene ().path;
-		//return Application.loadedLevel;
 	}
 
 		
