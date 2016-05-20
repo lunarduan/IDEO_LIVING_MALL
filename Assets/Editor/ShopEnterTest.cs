@@ -5,6 +5,10 @@ using NUnit.Framework;
 [TestFixture]
 public class ShopEnterTest {
 
+	/**
+	 * 	Try to enter inshop scene with function directly
+	 * 	and then assert that player is in shop.
+	 **/
     [Test]
     public void EnterTest()
     {
@@ -14,6 +18,11 @@ public class ShopEnterTest {
 		Assert.AreEqual(shop.getLevelOnTest(), "Assets/inshop.unity");
     }
 
+	/**
+	 *	Try to exit inshop scene with function directly
+	 *	and then assert that player is went to mall.
+	 * 
+	 **/
 	[Test]
 	public void ExitTest()
 	{
